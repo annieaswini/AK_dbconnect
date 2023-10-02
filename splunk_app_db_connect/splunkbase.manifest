@@ -1,0 +1,927 @@
+{
+  "version": "1.0",
+  "date": "2023-08-29T15:42:56.870592228Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 2686,
+    "version": "3.14.1",
+    "files": [
+      {
+        "path": "__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "appserver/README.md",
+        "hash": "1c5f8f91ac93ad429da22c0ff863efad6af21027229252f794f071a10f8a6f2c"
+      },
+      {
+        "path": "appserver/static/appIcon_2x.png",
+        "hash": "9ec42ed6eb79776a512494fb1183f6f54f0c675e7493c8b0074333cea41f8953"
+      },
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "3183eb04b03d84c4168cf1797fc1f9dd8a15e9516ecfbaa23e8bf328f7f39abd"
+      },
+      {
+        "path": "appserver/static/build/pages/common.js",
+        "hash": "2aa6850ff3d7550d4c24fa5957b7e57d91b442efe88ef49d6ff477567996de74"
+      },
+      {
+        "path": "appserver/static/build/pages/configuration.js",
+        "hash": "3cce1a658bbf9fff1f74e0c07d4766aeead5c74414b3342d0e989ed58e7b4767"
+      },
+      {
+        "path": "appserver/static/build/pages/data_lab.js",
+        "hash": "ca4b5d36c741f0f3e57ddfac644bcb9c6505fbaf5bf96f938358e4b72c6bbc0e"
+      },
+      {
+        "path": "appserver/static/build/pages/ftr.js",
+        "hash": "ddcf5b2bab77a19ef4323226aa805f61d66b3e32fdc23f6ffff0e875fabd4cc7"
+      },
+      {
+        "path": "appserver/static/build/styles.css",
+        "hash": "b7fde4de784d40563067d2f0d4b12256780086ebd7ad9ef9ce43707b98a2d19e"
+      },
+      {
+        "path": "appserver/static/metrics/mvc/mvc.js",
+        "hash": "7434a69964844e7e1751dc582826486abb17ebfc5d8b688ef3125d76f326e017"
+      },
+      {
+        "path": "appserver/static/metrics/mvc/utils.js",
+        "hash": "133a1c51bdf91596a0ec55dcea8aed4eeddfbe301b3db1c93bf2bb6f3ed7e411"
+      },
+      {
+        "path": "appserver/static/metrics/utils/underscore.js",
+        "hash": "b536bf061510b7d71ad883b0cb6875bf0c303e1e00aae31d5959ec6f7fb0acca"
+      },
+      {
+        "path": "appserver/static/metrics/views/Base.js",
+        "hash": "1ef9dca66fe85f942d39b4698a3d1f85567499062fe49d29b81f7f5f02a9305c"
+      },
+      {
+        "path": "appserver/static/metrics/views/Modal.js",
+        "hash": "f8ddf61da85baadf1273ab8a2cd188e759c1030a71b0e3385126b44cd39b05ff"
+      },
+      {
+        "path": "appserver/static/monitoring.css",
+        "hash": "19b95a226cdf9f5b71c1d46acf5b1e9c527c28713b4c8c32e1268ef8aaa56ded"
+      },
+      {
+        "path": "appserver/static/monitoring.js",
+        "hash": "7026d17833d63b8f6a625082b184b8e6500fcee0b85d2530c2cd5bd4a8f7a9de"
+      },
+      {
+        "path": "appserver/static/styles.pcss",
+        "hash": "44fe613810f938f51d8741c018e87fd97f286638e131e1baf590b8c317d71c73"
+      },
+      {
+        "path": "appserver/static/swc-dbx/index.js",
+        "hash": "af8e175ca3bceb81bd5c2694232ba1a691de3961c0b45522c3589470e7d90880"
+      },
+      {
+        "path": "appserver/templates/configuration.html",
+        "hash": "caa4d6d0d42da65701c449540be7c389fd3c847fb97e8165d2a5e73a16bbfcef"
+      },
+      {
+        "path": "appserver/templates/data_lab.html",
+        "hash": "caa4d6d0d42da65701c449540be7c389fd3c847fb97e8165d2a5e73a16bbfcef"
+      },
+      {
+        "path": "appserver/templates/ftr.html",
+        "hash": "80db00892c5c33228266d699fd30f36fbdb5d4df27d9e1768a9460c2393683b0"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/__init__.py",
+        "hash": "ac80d531f2a907f96ebdaa935b8b7dbc3be744bc601c84b10f2bdc948224c965"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/binding.py",
+        "hash": "37ad2202b8f93526bd5f6f9b52dbb3ff76ee89579c4578e30485e2ad684f7a79"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/client.py",
+        "hash": "44ef19706a17339a209b796953ebb43c96a11769c301366f9ae1d2b72ea37bb9"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/data.py",
+        "hash": "4e4b05736b6b176fd4397a2c42ef66760abccbbb06dbefd95a6165767454f8ae"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/__init__.py",
+        "hash": "6c7c88d29dc6b41a008db14211bb9489b1052b09c70f267364ec12e05bedd33b"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/argument.py",
+        "hash": "386603096d45c3b3ec3328317adc334c7d981a6d5f77312b657c5463207e58d5"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/event_writer.py",
+        "hash": "44bdfc53d3dd90c0f584bad1dd74a5e6775916f83265e4858998c3bf07f506b0"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/event.py",
+        "hash": "c55fa7dfc338c4553c381def713feef1c965586068e411c658d6174dc7c93889"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/input_definition.py",
+        "hash": "444fd09df04b5c0d8985d12c86f7255734c129ca6963f92d43494e0251943cd7"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/scheme.py",
+        "hash": "c25945b449d5f74318f4536b3d1dcea0885dcd55386e5685ece35a11c2f77a44"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/script.py",
+        "hash": "61933b50a205b8b924365765180b64f077dbc33675d6e7afd0883cbec315196a"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/utils.py",
+        "hash": "634fa07eab5a3a98506bb2c94cf3a6070b56c1a47fd86d976597a6964429c161"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/modularinput/validation_definition.py",
+        "hash": "a2b0f857f8589a9c6db87b2ffc685c3e785c183a079ca31253e2928539940b02"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/results.py",
+        "hash": "a2f7e31ff40c70cd106da91596bf0a02239ca7567f57b2ad87ba1d7bc341197a"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/__init__.py",
+        "hash": "561e00361094a620ad9993b196e4f0267dcd817afdb1b2bf98cab0f8df4807e2"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/decorators.py",
+        "hash": "c764c5209bb2c7cfeb162e0ad967fa60a8c6f2d66e0f7959d57e394da472078d"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/environment.py",
+        "hash": "997e76b662628010e782e22bcefccc1c5bbd5f2b039068ba58d9791ae50a293b"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/eventing_command.py",
+        "hash": "471cbcf2e07de71150d86ab853b7b8e51a1cfb31913355f6cdd7c821b44d87e2"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/external_search_command.py",
+        "hash": "9a5fbfe2a301671fccd0e62209ebc076945904b1bf8a1ee94d1b261256e7d9ad"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/generating_command.py",
+        "hash": "f77c701ed408454225c5d1b6ba126fc64ea89a9e1210b79f33cc2ab1f2a95cd1"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/internals.py",
+        "hash": "0962779efe5aeb0595a08eb19f9d1832cd4b192d01b3336d2afd3e037b1f308f"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/reporting_command.py",
+        "hash": "40537218ef844255b4d41c44130e5cec95a1e0801f866dbd4a500a8237edbb26"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/search_command.py",
+        "hash": "70cb1ffee5324beb93c2270034df96a7815f3a104cb7c2e5463e1f516b06e3b4"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/streaming_command.py",
+        "hash": "aa45695ec34a4125a84c4d592ca26f2bb68f14743274f163f533ffc7bc0b9ed7"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/searchcommands/validators.py",
+        "hash": "074bf043dad896e02932536b71099a8dd1f16a6f9c5e0d0a096b7dab7bab5fee"
+      },
+      {
+        "path": "bin/3rdparty/splunklib/six.py",
+        "hash": "919fb50a0bd07fe1c319d98aab1cd69fd5140a43e42b50a07a5e5c91c8fec687"
+      },
+      {
+        "path": "bin/alert_output.py",
+        "hash": "04446c42b7e8d5d4e99f6092134e6bbcd934332a75b967ecddb5e404b992c12a"
+      },
+      {
+        "path": "bin/command.sh",
+        "hash": "0cd231a639a35b045fe9724bb4fe6a5133ed8c71ad1df42331b725ea9198ca97"
+      },
+      {
+        "path": "bin/dbx_bootstrap_env.py",
+        "hash": "ec09be4589eec692536aa2cb8d6c59663306dbab3ea8de6f8198842b96011ceb"
+      },
+      {
+        "path": "bin/dbx_command_cal_data_volume.py",
+        "hash": "889a9c092e5f39a2ed97b4346dc20d01d4ec5faa7550f9f239c22b1101eab190"
+      },
+      {
+        "path": "bin/dbx_connection_diag.py",
+        "hash": "b1ebf86c9fd86eb6ee7dd11bcd8212b9f1cff344ff7736bc8d92cdc7c2ad78d2"
+      },
+      {
+        "path": "bin/dbx_connection_mssql_integration_tests.py",
+        "hash": "73783733d742b26d4c47755f56a4bbc3db2f287e2e4616e5c3c8b06bfc250bcb"
+      },
+      {
+        "path": "bin/dbx_connection_mysql_integration_tests.py",
+        "hash": "7a4d9d1f33acb957ab8983ae94680327f71950e16eeadd7feaa40894d47e5c27"
+      },
+      {
+        "path": "bin/dbx_connection_postgres_integration_tests.py",
+        "hash": "e3397d0d563c3fd6a6697aa1e57f47e1a8c6f18e1d012cdbe49b98b618a9951c"
+      },
+      {
+        "path": "bin/dbx_connection_unit_tests.py",
+        "hash": "c6649d20b6f1ca44218ff44c43533d44ab2b698bf8072fe38e82770414180d07"
+      },
+      {
+        "path": "bin/dbx_db_input.py",
+        "hash": "871f5060e94ae7f22b5c6a28e904963513f3cca8fdadee4cdb587386a04e0af3"
+      },
+      {
+        "path": "bin/dbx_db_output.py",
+        "hash": "40535add37c101ac3b1d478796f4e47d371854e4d4d4e77a585212096a57613d"
+      },
+      {
+        "path": "bin/dbx_diag.py",
+        "hash": "c542e5f695185917dc2b636867a7080cd472419602fcc2d6cb5562691af43a38"
+      },
+      {
+        "path": "bin/dbx_rh_apimetricscollector.py",
+        "hash": "2986f998d823378dd43f784f20b6d7328b649b1519379d8e1d08a352263e2840"
+      },
+      {
+        "path": "bin/dbx_rh_health_check.py",
+        "hash": "49bdd3ad6e66a95822411deb6dc7bbc00f24c02586cbe47f6edba5eff3490359"
+      },
+      {
+        "path": "bin/dbx_rh_loglevel.py",
+        "hash": "3dddbbd9bdd18c2a2fef99eade0c2921a090c175878957e48633e6b9345388ec"
+      },
+      {
+        "path": "bin/dbx_rh_proxy.py",
+        "hash": "3f310bfb15021ba8b9b3731848001203863e44e4d56b2ccee2ddfd7f0157e124"
+      },
+      {
+        "path": "bin/dbx_rh_settings.py",
+        "hash": "a2a989c611c4cc21530ed141fc7f5ab373e18a298cd08e99be4b556747e34e66"
+      },
+      {
+        "path": "bin/dbx2/__init__.py",
+        "hash": "b155041b37bb930043f10ad00a0ccca84a852ab06557dca4241a4f71d1ed1018"
+      },
+      {
+        "path": "bin/dbx2/C.py",
+        "hash": "4fde26c405f061f3385e85733e01e4a6afd2db2928bc7dcd7fb3cedae84e13e6"
+      },
+      {
+        "path": "bin/dbx2/dbx_logger_factory.py",
+        "hash": "c857f55be860f57f2413f5d42bad930b76f0cc5e6c347ddb1108309928b4b0af"
+      },
+      {
+        "path": "bin/dbx2/dbx_logger.py",
+        "hash": "7b23ae55a1361b6534511b6ed0f1e4d5a78c5accf0fff8584de77db2f23ba356"
+      },
+      {
+        "path": "bin/dbx2/dbx_logging_formatter.py",
+        "hash": "39786af55e6101fe1ad7e6858d33848e2d401708f78c8c9fc782d72c1fe98509"
+      },
+      {
+        "path": "bin/dbx2/java_home_detector.py",
+        "hash": "0bfbbdc32b69a79fad33fa5cb9af323bc9433d4ad5d1a03cbcff99e5076ad370"
+      },
+      {
+        "path": "bin/dbx2/jre_validator.py",
+        "hash": "2d19f4ba20546016bfc24d0416709e4a98a0384835ffa0763d6155a48b05ed67"
+      },
+      {
+        "path": "bin/dbx2/jvm_options.py",
+        "hash": "f3f2276bf8c527b483b4bc9a8b4b4f60b2ae7436dde5b0f45f2493b1150713a8"
+      },
+      {
+        "path": "bin/dbx2/loghandlers/__init__.py",
+        "hash": "2c031653126f3610c808d422fe1733ddb98c609bb97d0b545c52bb46c7bbec6f"
+      },
+      {
+        "path": "bin/dbx2/loghandlers/cloghandler.py",
+        "hash": "ae2374b55cf7d5b17a9200bebc06583699975defc6715b2a5af2de65c701f6bc"
+      },
+      {
+        "path": "bin/dbx2/loghandlers/portalocker.py",
+        "hash": "22948839cc1279d1bc55f7caadf7267bedd4b9d72b66a8d713d27ccba844a720"
+      },
+      {
+        "path": "bin/dbx2/rest/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/dbx2/rest/health_check.py",
+        "hash": "69be2ed8839cd4ef4e65adbc690891652567d3e10c77cee63aca9c2cc952d22a"
+      },
+      {
+        "path": "bin/dbx2/rest/loglevel.py",
+        "hash": "a6608c162bb32c8f89e34d4e6fd2494b1bc2bbab8395c86357b38e7fc86a524f"
+      },
+      {
+        "path": "bin/dbx2/rest/metricscollector.py",
+        "hash": "7fd06896e416b0956cc7bf5e2ad5a2078a8c351f9104843c214539e7c8e95f58"
+      },
+      {
+        "path": "bin/dbx2/rest/proxy.py",
+        "hash": "5ab857b1606f3757a29943ff95c103cc3e50ed9e55bbca2caaf8d0eb07c54c3f"
+      },
+      {
+        "path": "bin/dbx2/rest/settings.py",
+        "hash": "56c790ac3e407648f1b494e19e6d9e6aaf35274ab07ea2145ea7294a4e39cad9"
+      },
+      {
+        "path": "bin/dbx2/simple_rest.py",
+        "hash": "bc3646958334a7290f566e9c8d2c3b347606852ed7746dac192a4ae729a9492b"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/__init__.py",
+        "hash": "1cd595ef807c94ff93259147d5b7dfa7c12de47816d082ea98f000e7e2df5c22"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/api_config.py",
+        "hash": "e896dc9e5630631880c20e3981025619a2d610301b5fa5ca379600711c79a8d1"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/connection_entity.py",
+        "hash": "0ceb7461449e04a6cbfec2afe4a7b9b9be11eb4142d0503dd8401bdc59ae09ef"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/connection_types.py",
+        "hash": "e306a1790b7ded4ea4184e9ba9cc95a40fafbfe636cbdee7e1579a110fb28165"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/http_error.py",
+        "hash": "b2755dfe7a273819e99a8781e7cedc37a647eb9691b4058ea4b7a31ce091ae49"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/identity_entity.py",
+        "hash": "e011c1ba6d0340a241ce974ee73c473e1792495765e0564324856b14db1c634c"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/lookup_entity.py",
+        "hash": "72aef2b609e6a13e203300d812394e05d94995a44f8311ff8ace0c63b782358a"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/server_settings.py",
+        "hash": "fd8d0a7db40c65431ae47d924619c82887b616a181f9c854f6984b75f33a1e87"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/shc_cluster_captain_info.py",
+        "hash": "b3ba36f698153d29de3bc0442ca734975226d7fbb9e14b39b6514f0a3cc7f1f5"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/shc_cluster_config.py",
+        "hash": "d9aa45a436dad38dda704db24fe1f7b26ea7376e0f8b6981f523d7cb762f97a7"
+      },
+      {
+        "path": "bin/dbx2/splunk_client/splunk_service_factory.py",
+        "hash": "48159ea39a4a5bd6b9965f6f9a0a9791fb9bec618937f4ca6d57da79b5e42ef7"
+      },
+      {
+        "path": "bin/dbxquery_bridge.py",
+        "hash": "71a2854af408c91ce3167c1e41f2547e7a3d3bfed364df87df4d849dfe7c3788"
+      },
+      {
+        "path": "bin/dbxquery.sh",
+        "hash": "37a073644766682ee03c6cfb908af41a18c9a6f7ac835c51ae2bb39602326bbb"
+      },
+      {
+        "path": "bin/java_home_detector2.py",
+        "hash": "04df57051b08e54c058399f01cc2c752abeba9ce0570155db60aeb1b2f40540f"
+      },
+      {
+        "path": "bin/java.path",
+        "hash": "a3264d1bd37f83691d9e95788775c684f2832f8dcf32f042107600d893818ff7"
+      },
+      {
+        "path": "bin/JDBCConnect.java",
+        "hash": "dd3288af2b07331056dfc758e516280b3515de0efe714cffa933b77eb041d242"
+      },
+      {
+        "path": "bin/jre_validator2.py",
+        "hash": "f8003e0b63d8cb6451f60fa248ad67492f8b55cd1d852ce4cc31a007140d8cb5"
+      },
+      {
+        "path": "bin/rulebook.csv",
+        "hash": "303716c152134f40545fd47b5978cd5da8ee654dcd65ace63fac9a458255e770"
+      },
+      {
+        "path": "bin/run_dbx_connection_integration_tests.sh",
+        "hash": "5227bedaaf1ac8deb7c2e52382b27fab5fb37f228df213462b185fb96fccfa1c"
+      },
+      {
+        "path": "bin/server.sh",
+        "hash": "37a073644766682ee03c6cfb908af41a18c9a6f7ac835c51ae2bb39602326bbb"
+      },
+      {
+        "path": "bin/troubleshooting-tools/connector.jar",
+        "hash": "9fac1c27dab8cbece48a667465be9979db3e2827734c63550b71c4e49f896d81"
+      },
+      {
+        "path": "bin/troubleshooting-tools/requirements.txt",
+        "hash": "9fbe4a2c30ac59a05930aad81a653aac3dc9a410a1722330c49474ea263e5a9a"
+      },
+      {
+        "path": "bin/troubleshooting-tools/troubleshooting_tools-0.1.0-py3-none-any.whl",
+        "hash": "74350a68f3f762b6d0b7f3a27e1620430b006fdb31e724db10eaf915252f4e80"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/certifi-2023.5.7-py3-none-any.whl",
+        "hash": "c6c2e98f5c7869efca1f8916fed228dd91539f9f1b444c314c06eef02980c716"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/cffi-1.15.1.tar.gz",
+        "hash": "d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/charset_normalizer-3.1.0-py3-none-any.whl",
+        "hash": "3d9098b479e78c85080c98e1e35ff40b4a31d8953102bb0fd7d1b6f8a2111a3d"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/cryptography-41.0.1.tar.gz",
+        "hash": "d34579085401d3f49762d2f7d6634d6b6c2ae1242202e860f4d26b046e3a1006"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/idna-3.4-py3-none-any.whl",
+        "hash": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/javaobj_py3-0.4.3-py2.py3-none-any.whl",
+        "hash": "f6ac64cab49e282cf8171d4c479de413dedbbb1a69c64499648185f974080db3"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pyasn1_modules-0.3.0-py2.py3-none-any.whl",
+        "hash": "d3ccd6ed470d9ffbc716be08bd90efbd44d0734bc9303818f7336070984a162d"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pyasn1-0.5.0-py2.py3-none-any.whl",
+        "hash": "87a2121042a1ac9358cabcaf1d07680ff97ee6404333bacca15f76aa8ad01a57"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pycparser-2.21-py2.py3-none-any.whl",
+        "hash": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pycryptodome-3.18.0.tar.gz",
+        "hash": "c9adee653fc882d98956e33ca2c1fb582e23a8af7ac82fee75bd6113c55a0413"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pycryptodomex-3.18.0.tar.gz",
+        "hash": "3e3ecb5fe979e7c1bb0027e518340acf7ee60415d79295e5251d13c68dde576e"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pyjks-20.0.0-py2.py3-none-any.whl",
+        "hash": "394dee142ecff6b1adc36f64356e5584732f1859575aa03b9cf5d5541a9e3460"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/pyOpenSSL-23.2.0-py3-none-any.whl",
+        "hash": "24f0dc5227396b3e831f4c7f602b950a5e9833d292c8e4a2e06b709292806ae2"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/requests-2.31.0-py3-none-any.whl",
+        "hash": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/splunk-sdk-1.7.3.tar.gz",
+        "hash": "21c4564095e04857b8c206db8197cdda64708bf7b6cefddf2fd9ac88cfd45196"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/twofish-0.3.0.tar.gz",
+        "hash": "b09d8bb50d33b23ff34cafb1f9209f858f752935c6a5c901efb92a41acb830fa"
+      },
+      {
+        "path": "bin/troubleshooting-tools/wheelhouse/urllib3-2.0.3-py3-none-any.whl",
+        "hash": "48e7fafa40319d358848e1bc6809b208340fafe2096f1725d05d67443d0483d1"
+      },
+      {
+        "path": "certs/README",
+        "hash": "7d04b180108b81f5899b293275bbd298b98465e0eb3ce8cb965cc9f6bc3fd977"
+      },
+      {
+        "path": "config/command_logback.xml",
+        "hash": "5fb84088f8a0e740aa2c80a5777a8aac885d1117c0c130857652a1004972a811"
+      },
+      {
+        "path": "config/dbx_task_server.yml",
+        "hash": "7c5b112ece9329d109d2f7a1eda27746cb0bb110460908f47a508a11f80a3208"
+      },
+      {
+        "path": "config/dbxquery_server.yml",
+        "hash": "5e4cad8a874a2853f72e12d93ce72e1a7d481677e0330c8ec3a3e78577026a85"
+      },
+      {
+        "path": "config/kerberos_client.conf",
+        "hash": "9a244ffc13671c45f7602ec3927008d9f14e8e3d85f5229cf83f0bf32b85aef8"
+      },
+      {
+        "path": "darwin_x86_64/bin/command.sh",
+        "hash": "cb71bbe989612c526dcfaae7f6507f288393fdab6bce9c4e7f914656669dd766"
+      },
+      {
+        "path": "darwin_x86_64/bin/dbxquery.sh",
+        "hash": "49db0feb33245d08f764928d537451223d3b2230ee7caff3b9c4f5b4a5c9464c"
+      },
+      {
+        "path": "darwin_x86_64/bin/java.path",
+        "hash": "f20b9cebd066cbd019fcc753984520e36aeb32a66af98c8ab9c2305b1cfc65cb"
+      },
+      {
+        "path": "darwin_x86_64/bin/server.sh",
+        "hash": "8c72b8a2b5b4ef4b86bc28f26e392d5ef70978f6e64e960106ef117ca6c5a7de"
+      },
+      {
+        "path": "default/alert_actions.conf",
+        "hash": "8f408ad66eee59c4a0c3b5e0e8e26068d742bff331d4464ae1f78fa660767dea"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "d083887718c2ab17783ba511e253e83c3ed92da19f667c978084af5259ad98d7"
+      },
+      {
+        "path": "default/authorize.conf",
+        "hash": "c4c4e40d0d847f622114307a871fe8b78e97e9e1fafe830dccc56ed9cb49a406"
+      },
+      {
+        "path": "default/checklist.conf",
+        "hash": "f7a316fe3947c23cb31c49f5384ba574a11c3ca48c175eca72ce11451d83569d"
+      },
+      {
+        "path": "default/commands.conf",
+        "hash": "f96c1eb7254ebce446dd5ba00920d788aa2c757b424b6b812335f5e20243be29"
+      },
+      {
+        "path": "default/data/models/DB_Connection_Metrics.json",
+        "hash": "58255e840e015d6294769d7c61bba394ecac19df90acbee9d0bb643532c691c5"
+      },
+      {
+        "path": "default/data/models/DB_Health_Audit.json",
+        "hash": "7b0f4408bbf2e804ccd2ce3d00a6201eda69274816c4c2bfaa72d7289afbfffc"
+      },
+      {
+        "path": "default/data/models/DBX_Health_Metrics.json",
+        "hash": "0a6f343a04f9b314cb12ff4f60250c22f50de77f888ab5ba9e8e79569c7bebe8"
+      },
+      {
+        "path": "default/data/models/DBX_Job_Metrics.json",
+        "hash": "61a1a25155dd7b38c756a4c3ceece6d4145d88ac5beb839b98d23df8eaf8ed57"
+      },
+      {
+        "path": "default/data/ui/alerts/alert_output.html",
+        "hash": "048c0501f5ec44be1756ec21682c5ce9a4215bb1686940171b7f2a235c899429"
+      },
+      {
+        "path": "default/data/ui/nav/default.xml",
+        "hash": "5bb1d39969afd18628be9c2497e30f26bf5e2ea1d4f2d83de45c28357af64507"
+      },
+      {
+        "path": "default/data/ui/views/configuration.xml",
+        "hash": "aecefe304ae427506d6c9a84aa57e5f3367ebdfd17cf25b92c8ff9d83f7a1908"
+      },
+      {
+        "path": "default/data/ui/views/data_lab.xml",
+        "hash": "bd3871b4d1d0021a5750ea6b66673a068d26e9896102f9b365b02d2546ef8ec4"
+      },
+      {
+        "path": "default/data/ui/views/db_health.xml",
+        "hash": "5cb1d0a362e636c6522ad46d1d0ebb67b3a7ae850a8b3bfdc354188123353598"
+      },
+      {
+        "path": "default/data/ui/views/ftr.xml",
+        "hash": "3d1eb7fda0d860391c48bcb58714d18177ff54faa32ffd0bde05c2ed3d850104"
+      },
+      {
+        "path": "default/data/ui/views/input_health.xml",
+        "hash": "388662e2cdcbf9ba8c192a8207c5400179382370599a4068e78c1aea72018683"
+      },
+      {
+        "path": "default/data/ui/views/input_performance.xml",
+        "hash": "16d0e2360c51fa5a14f19c90b7cdac167fa2b81075be6f505f975bddd31c37c8"
+      },
+      {
+        "path": "default/datamodels.conf",
+        "hash": "9e4311e3d8ea883beb509c537ff4532e24be43bcee88bf6853fb7da8609c9673"
+      },
+      {
+        "path": "default/db_connection_types.conf",
+        "hash": "4ae27272e2032c88d98ff37e054640838216577ae8ecc60c64f23ca1bbc93d57"
+      },
+      {
+        "path": "default/db_connections.conf",
+        "hash": "300b11a6c4c34581c7e456b4620a6efd461fd8e61b169199a1b0272725578ca0"
+      },
+      {
+        "path": "default/db_input_templates.conf",
+        "hash": "b84244087426fd165c877b2586d9490051fbaf151cf049d21e07e744a709e010"
+      },
+      {
+        "path": "default/db_inputs.conf",
+        "hash": "b9221ab5a4bdcc179626d9b449964f08163f67a1e4ed410a9976c31185ff7746"
+      },
+      {
+        "path": "default/dbx_logging.conf",
+        "hash": "7539b85fa408009a0da0dc6cbd62af9e6653071983f9f7856e1aa789ab810351"
+      },
+      {
+        "path": "default/dbx_settings.conf",
+        "hash": "b73619f180c2d362ce1caca9086b29f82ba448e7df6075cb48bbdca076f11e99"
+      },
+      {
+        "path": "default/dbx-jdbc-addons.conf",
+        "hash": "dc0b5c58a78f355125aa0453a5baeafb475fd1702d5d73dc00b2d0ec91869177"
+      },
+      {
+        "path": "default/dbx-migration.conf",
+        "hash": "b10956aa474194b04514a242ab77f431443ad9f469d7f42417a7aa4b9440e3a0"
+      },
+      {
+        "path": "default/identities.conf",
+        "hash": "97c89b0213036ce5ac0958f2a68970b13c132c39382e86cd4060d8423c86276b"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "370833f4bdf333a30bdea01830842060df7f353842db4c4384928a5d3ca94f8f"
+      },
+      {
+        "path": "default/macros.conf",
+        "hash": "c54632c48f7bf4125fc6b1779eb88a253eb79886954ce879e9653ee1cd8d27a2"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "7cec571fe891d1802ddf0a7a4889b504115cad101c26290afafcdcd4585b872f"
+      },
+      {
+        "path": "default/restmap.conf",
+        "hash": "f631679a3a7d896dea941de900e5d44d0f9e8a2d2845e6cfe62215013acef1b7"
+      },
+      {
+        "path": "default/savedsearches.conf",
+        "hash": "8197e56c4fa5c3121272abb4393b3f3ab76c1b53b618e5b41ac43e7107621592"
+      },
+      {
+        "path": "default/searchbnf.conf",
+        "hash": "309694d28986c424604a2680cec4e7ffc00d16bd8f40e24d657afe53e70749d9"
+      },
+      {
+        "path": "default/server.conf",
+        "hash": "b171ad1beb0ed7d33ae833aca6f919ca0750f0164e25a14615484e66614974ce"
+      },
+      {
+        "path": "default/ui-metrics-collector.conf",
+        "hash": "cb57a20023621694758c0f44263d0ef358f06a8b64915c039639bbda0887e02e"
+      },
+      {
+        "path": "default/web.conf",
+        "hash": "3263fb8db69819c89c78f1cca1b905c4118678d140245dcaf5ce4d27f348ece5"
+      },
+      {
+        "path": "drivers/README",
+        "hash": "8fa2777b80a342f1141d284e091eb72e1316e9a0d721399c02d93e1e5a21ac99"
+      },
+      {
+        "path": "jars/dbxquery.jar",
+        "hash": "03db10ec5268ee88fc20491764409b24e1cdf297ea4332c8c3c40bd00372fe1f"
+      },
+      {
+        "path": "jars/libs/bcpkix-jdk15on-1.70.jar",
+        "hash": "e5b9cb821df57f70b0593358e89c0e8d7266515da9d088af6c646f63d433c07c"
+      },
+      {
+        "path": "jars/libs/bcprov-jdk15on-1.70.jar",
+        "hash": "8f3c20e3e2d565d26f33e8d4857a37d0d7f8ac39b62a7026496fcab1bdac30d4"
+      },
+      {
+        "path": "jars/libs/bcutil-jdk15on-1.70.jar",
+        "hash": "52dc5551b0257666526c5095424567fed7dc7b00d2b1ba7bd52298411112b1d0"
+      },
+      {
+        "path": "jars/server.jar",
+        "hash": "beca6152afcb4ff00e773551e019e361a9609b1ee39baa6e8fdce84a3ae4e405"
+      },
+      {
+        "path": "license-eula.rtf",
+        "hash": "c999fec156185aa356937d0fd72ae250833263fc9931e90f91691544185f6f49"
+      },
+      {
+        "path": "license-eula.txt",
+        "hash": "14a0a52e51f8d42465e5bc56d07b6f4ea6e0a159a96fb574410a0de0e700fdba"
+      },
+      {
+        "path": "linux_x86/bin/command.sh",
+        "hash": "2adb07a8c0dcbbbe46afa759fd76118bc9cdfd26e4b5f81d7e4bb4c01eddf499"
+      },
+      {
+        "path": "linux_x86/bin/dbxquery.sh",
+        "hash": "adf228bd5bfa14613a845d33745d9789509fc42ea4582a9f0f688f2cb05f56e7"
+      },
+      {
+        "path": "linux_x86/bin/java.path",
+        "hash": "e50807e85f99c78852e4e61ec13c601d6a30b0b70e2f253d94ad5d0fbad62337"
+      },
+      {
+        "path": "linux_x86/bin/server.sh",
+        "hash": "6a757f62474d8dabda48b571e484c32cb99bbf7a5fb5470fe9b526639f9e83d0"
+      },
+      {
+        "path": "locale/babel.cfg",
+        "hash": "c27531306d39c564d37caf56571e3b81273649d7f057e7fffb458583bef2be2f"
+      },
+      {
+        "path": "locale/README",
+        "hash": "6075805a54fa3fad5759ca7396676143cf060752cee82e0ebd77e1d4654d379d"
+      },
+      {
+        "path": "locale/zh_CN/LC_MESSAGES/messages.mo",
+        "hash": "c9ea90a5c3b2d41e3f9f468afc2d25bb732e0362acbc383af2402b9398b5f6af"
+      },
+      {
+        "path": "locale/zh_CN/LC_MESSAGES/messages.po",
+        "hash": "2b4273582bc5b8056fdbcb5aca6486116b39975ac59e133a8204ef6dddc9b8a5"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "d91937782d4386e899670dd6dc01ae1cda5d12712eb5eef439cdb1d701a134e6"
+      },
+      {
+        "path": "README.md",
+        "hash": "a77d8f5fd867fd6bd52c089bde8a22654437911f74c44ac853579ef5d9a10bb9"
+      },
+      {
+        "path": "README/alert_actions.conf.spec",
+        "hash": "74d0a4807cc29c9414f7b9c183a1f2f99a431ddf70639f1ac12963fbd44aee43"
+      },
+      {
+        "path": "README/db_connection_types.conf.spec",
+        "hash": "7cddaeb9f5c8729343ab65d8a3471f4ff4e6477aa2f8c3c078c7242aed4e17db"
+      },
+      {
+        "path": "README/db_connections.conf.example",
+        "hash": "42e73bb60abdf47489a042739d423c7828668ea7932cd52f57e5919800c281d5"
+      },
+      {
+        "path": "README/db_connections.conf.spec",
+        "hash": "102ce9daf7e7c8af65c944853214114ba0f104a2ac79c1c9a7fba1fd0c4be73f"
+      },
+      {
+        "path": "README/db_input_templates.conf.example",
+        "hash": "a86a1102340041e147df8e7a788514a76761d2a95c99756832bb9b11a732b20c"
+      },
+      {
+        "path": "README/db_input_templates.conf.spec",
+        "hash": "fe17087141cd750dbe3a8e54d434aa7eb84e4c1bebbb83c0b9bd3707cf902034"
+      },
+      {
+        "path": "README/db_inputs.conf.example",
+        "hash": "d796a4d590d6f31c7bf53b5fb2d72396826fc679683e3b018e228cc27e0e3a68"
+      },
+      {
+        "path": "README/db_inputs.conf.spec",
+        "hash": "31ec0a1475bd0c523d9f53dcfd7972190d0c4461be5bb44b88e6b89347ebb3fe"
+      },
+      {
+        "path": "README/db_lookups.conf.example",
+        "hash": "6623113f0fd1977378d3d48bfb61f166af6e967394a578b02ffd3a3018ee5c31"
+      },
+      {
+        "path": "README/db_lookups.conf.spec",
+        "hash": "0e21f8c6dfae2db71340c9a8a18e0e1784e97ed1860747b666ff01ba02b566ad"
+      },
+      {
+        "path": "README/db_outputs.conf.example",
+        "hash": "fd6e71055c1110854336ab105d48c0b82c9aebfe2c6e49ebe62e1933c057ed85"
+      },
+      {
+        "path": "README/db_outputs.conf.spec",
+        "hash": "a6f08c2d27396f65a7aa5ca3fbe8b261bed7686af9d6acb8c56d5969e9753ec9"
+      },
+      {
+        "path": "README/dbx_settings.conf.spec",
+        "hash": "4a2eaea9d14621d43ff94255aa8f8aa43cde33f700c47166f7ae5e446a3e9284"
+      },
+      {
+        "path": "README/dbx-jdbc-addons.conf.example",
+        "hash": "8e19372214e1f72e69a2bcbde2838a7e0cfca50b52610f1f21c160bae7790a3c"
+      },
+      {
+        "path": "README/dbx-jdbc-addons.conf.spec",
+        "hash": "d3bff1206b52bc105a0e8548df93235a67389f9892cc3ae66ace92cbc5da5438"
+      },
+      {
+        "path": "README/dbx-migration.conf.example",
+        "hash": "b10956aa474194b04514a242ab77f431443ad9f469d7f42417a7aa4b9440e3a0"
+      },
+      {
+        "path": "README/dbx-migration.conf.spec",
+        "hash": "be2fe609b534e21c9876b25c62961952a58c489328212ffa69cdf2cc80467b47"
+      },
+      {
+        "path": "README/identities.conf.example",
+        "hash": "9cef9107b4b2b1883dd57c59d9af01a4008795fdd53f869d17d8ef952c21dea6"
+      },
+      {
+        "path": "README/identities.conf.spec",
+        "hash": "01b81578078ace43574728c183b5200fed92924786d262e1c4fdf2c80a223911"
+      },
+      {
+        "path": "README/inputs.conf.spec",
+        "hash": "1fa38fd776bdfeeefc65ba93595d7997ac984bf403d7c54895353457db9a68be"
+      },
+      {
+        "path": "README/savedsearches.conf.spec",
+        "hash": "b913bf5fdc439d62bb8a94dd84a58251a02f05c3411399fc147025c1aa455570"
+      },
+      {
+        "path": "README/settings.conf.example",
+        "hash": "4524de789d901eed34b36ff1b1009145615b824a99e9588435444573190c8a60"
+      },
+      {
+        "path": "README/ui-metrics-collector.conf.spec",
+        "hash": "5d3b3da22c25a6dab52553cf42b6cf39c5fec89e3229c5143326c398eb46bee1"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "9ec42ed6eb79776a512494fb1183f6f54f0c675e7493c8b0074333cea41f8953"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "3183eb04b03d84c4168cf1797fc1f9dd8a15e9516ecfbaa23e8bf328f7f39abd"
+      },
+      {
+        "path": "windows_x86_64/bin/command.bat",
+        "hash": "6e4313e09437e7ced6e9f33f010e1c0500e98fed52737060504266c75525fc13"
+      },
+      {
+        "path": "windows_x86_64/bin/dbxquery.exe",
+        "hash": "e7225a9fa1f5a6ec39fa0908f19787c062789223c4c9dc1e3c5d91849468bc7e"
+      },
+      {
+        "path": "windows_x86_64/bin/java.path",
+        "hash": "cf7ad17e952d73047e5ab5185d2d60b8be4fda8ff076ff0c520effc654f10eb3"
+      },
+      {
+        "path": "windows_x86_64/bin/server.exe",
+        "hash": "e7225a9fa1f5a6ec39fa0908f19787c062789223c4c9dc1e3c5d91849468bc7e"
+      },
+      {
+        "path": "windows_x86/bin/command.bat",
+        "hash": "6e4313e09437e7ced6e9f33f010e1c0500e98fed52737060504266c75525fc13"
+      },
+      {
+        "path": "windows_x86/bin/dbxquery.exe",
+        "hash": "2745ad405a26b96daf5175b51a6a9037af057f16b0d3c5627a7fe1fed826e18a"
+      },
+      {
+        "path": "windows_x86/bin/java.path",
+        "hash": "219848a9f457e6571d2856b6abee481f9602b51e5c03a326f72780b1468f0f02"
+      },
+      {
+        "path": "windows_x86/bin/server.exe",
+        "hash": "2745ad405a26b96daf5175b51a6a9037af057f16b0d3c5627a7fe1fed826e18a"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}
